@@ -12,14 +12,17 @@ const Shop = () => {
     }
     , []);
 
+    const handleAddToCart = (product) => {
+        console.log('clicked');
+    }
+
     return (
         <div className='shop-container'>
             
             <div className='product-container'>
                 {
                     products.map(
-                        product => <Bat key={product._id} product={product}> 
-                        
+                        product => <Bat key={product._id} product={product} handleAddToCart={handleAddToCart}> 
                         </Bat>
                     )
                 }
