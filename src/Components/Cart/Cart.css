@@ -2,3 +2,19 @@
   position: sticky;
   top: 0;
 }
+
+.cartButton {
+  font-weight: 600;
+  background-color: goldenrod;
+  padding: 8px;
+  border: 0;
+  border-radius: 8px;
+}
+
+.cartButton:hover {
+  background-color: orangered;
+}
+
+.cart p {
+  font-weight: 600;
+}

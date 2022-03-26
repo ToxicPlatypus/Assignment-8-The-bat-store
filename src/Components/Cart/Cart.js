@@ -22,10 +22,10 @@ const Cart = (props) => {
 	        <p> {c.name} </p>
             ))}
 
-            <button onClick={() => generateRandom(cart)}>Choose one for me</button>
+            <button className='cartButton' onClick={() => generateRandom(cart)}>Choose one for me</button>
             <p>{random.name}</p>
 
-            <button onClick={() => clearAll()}>Choose again</button>
+            <button className='cartButton' onClick={() => clearAll()}>Choose again</button>
         </div>
         
     );
