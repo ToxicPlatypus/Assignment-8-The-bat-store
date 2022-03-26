@@ -10,12 +10,9 @@ const Cart = (props) => {
     if(cart[0]){
         // console.log(cart[0].name);
     }
-
-    if(cart.length === 3){
-        
+    if(cart.length === 3){ 
     }
 
-    
     return (
         <div className='cart'>
         <h3>Selected Bats</h3>

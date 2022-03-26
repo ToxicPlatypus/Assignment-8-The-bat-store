@@ -1,0 +1,10 @@
+.qaDiv h1 {
+  text-align: center;
+  background-color: aqua;
+  margin: 8px 30%;
+}
+
+.qaDiv p,
+ul {
+  margin: 0 10%;
+}
