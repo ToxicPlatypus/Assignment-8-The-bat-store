@@ -1,3 +1,5 @@
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faShoppingCart } from '@fortawesome/free-solid-svg-icons'
 import React from 'react';
 import './Bat.css'
 
@@ -12,7 +14,15 @@ const Bat = (props) => {
            <h2>Name: {name}</h2>
            <p>Price: {price}</p>
            </div>
-           <button onClick={() => props.handleAddToCart(props.product)} className='btn-cart'>Add To Cart</button>
+
+           
+           <button onClick={() => props.handleAddToCart(props.product)} className='btn-cart'>
+               <p className='btn-text'>Add To Cart</p>
+               <FontAwesomeIcon icon={faShoppingCart}></FontAwesomeIcon>
+           </button>
+           
+
+           
         </div>
     );
 };
